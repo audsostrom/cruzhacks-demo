@@ -6,7 +6,24 @@ html {
   
 }
 
+/**
+html {
+  background-image: repeating-linear-gradient(90deg,#0C1828, #364C66, #0C1828);
+  background-size: 300%;
+  animation: gradient 3s linear infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+    0% {background-position:100% 50%}
+    100% {background-position:-33% 50%}
+}
+
+
+*/
+
 body {
+  font-family: 'Barlow';
   color: white;
   display: flex;
   flex-direction: column;
@@ -21,7 +38,6 @@ body {
   line-height: 70px;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
 }
 .title-text {
   font-weight: 700;
@@ -35,7 +51,7 @@ body {
 
 
 .list-wrapper {
-  padding: 20px;
+  padding: 40px;
   margin-top: 20px;
   border: 2px solid white;
   background: black;
